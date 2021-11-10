@@ -1,5 +1,4 @@
 import React from "react";
-import './portfolioImage.css';
 
 const PortfolioImage = ({ className, h3, p }) => {
     return (

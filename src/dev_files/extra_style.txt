@@ -1,0 +1,23 @@
+<link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d1ee8b2c82.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+:root {
+    font-family: 'Spartan', sans-serif;
+    --very-dark-blue: #1B1D23;
+    --dark-grey: #60636D;
+    --medium-grey: #7D828F;
+    --light-grey: #C8CCD8;
+    --very-light-grey: #EEEFF4;
+    --errors: #DF5656;
+}
+
+font-family: 'Spartan', sans-serif;
+
+line-height: 1.8;

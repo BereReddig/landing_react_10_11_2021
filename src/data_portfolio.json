@@ -1,0 +1,86 @@
+[
+    {
+        "image": {
+            "className": "seraph",
+            "h3": "Seraph Station",
+            "p": "September 2019"
+        }
+    },
+    {
+        "image": {
+            "className": "eebox",
+            "h3": "Eebox Building",
+            "p": "August 2017"
+        }
+    },
+    {
+        "image": {
+            "className": "federal",
+            "h3": "Federal II Tower",
+            "p": "March 2017"
+        }
+    },
+    {
+        "image": {
+            "className": "sol",
+            "h3": "Project Del Sol",
+            "p": "January 2016"
+        }
+    },
+    {
+        "image": {
+            "className": "proto",
+            "h3": "Le Prototype",
+            "p": "October 2015"
+        }
+    },
+    {
+        "image": {
+            "className": "arch",
+            "h3": "2288 Tower",
+            "p": "April 2015"
+        }
+    },
+    {
+        "image": {
+            "className": "hotel",
+            "h3": "Grand Edelweiss Hotel",
+            "p": "December 2013"
+        }
+    },
+    {
+        "image": {
+            "className": "netcry",
+            "h3": "Netcry Tower",
+            "p": "August 2012"
+        }
+    },
+    {
+        "image": {
+            "className": "hypers",
+            "h3": "Hypers",
+            "p": "January 2012"
+        }
+    },
+    {
+        "image": {
+            "className": "v",
+            "h3": "SXIV Tower",
+            "p": "March 2011"
+        }
+    },
+    {
+        "image": {
+            "className": "trinity",
+            "h3": "Trinity Bank Tower",
+            "p": "September 2010"
+        }
+    },
+    {
+        "image": {
+            "className": "paramour",
+            "h3": "Project Paramour",
+            "p": "February 2008"
+        }
+    }
+]

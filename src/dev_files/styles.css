@@ -4,44 +4,7 @@
 
 
 
-/* Ideas Section *************/
-.ideas {
-    height: 700px;
-    padding: 50px;
-    margin-top: 6rem;
-    background-image: url("assets/home/desktop/image-small-team.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(17, 16, 19, 0.507);
-    margin-bottom: 6rem;
-}
 
-.ideas__headline {
-    font-size: calc(1rem + 3vw);
-    color: var(--very-light-grey);
-    margin-bottom: 40px;
-}
-
-.ideas__contents {
-    margin: 100px 0 0 20px
-}
-
-
-.ideas__link {
-    text-decoration: none;
-    background: var(--very-dark-blue);
-    padding: 20px 20px;
-    color: rgb(255, 255, 255);
-}
-
-.ideas__link:hover {
-    background: var(--dark-grey);
-    transition: 0.2s ease-in-out;
-}
-
-.arrow {
-    margin-left: 10px;
-}
 
 /* Featured section ************************/
 .featured {
@@ -657,26 +620,7 @@ textarea {
 
 
 
-/* Responsive Ideas **********/
-@media (max-width: 1000px) {
-    .ideas {
-        height: 600px;
 
-        background-image: url("assets/home/tablet/image-small-team.jpg");
-
-    }
-
-}
-
-@media (max-width: 500px) {
-    .ideas {
-        height: 500px;
-
-        background-image: url("assets/home/mobile/image-small-team.jpg");
-
-    }
-
-}
 
 /* Responsive Featured  *********************/
 @media (max-width: 890px) {

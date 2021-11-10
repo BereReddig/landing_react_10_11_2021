@@ -25,11 +25,11 @@ function App() {
           <Welcome/>
         </section>
 
-        {/* <section className='ideas'>
+        <section className='ideas'>
           <Ideas/>
         </section>
 
-        <section className='featured'>
+        {/* <section className='featured'>
           <Featured/>
         </section>
 

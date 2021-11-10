@@ -7,7 +7,7 @@ const Nav = (props) => {
 
     const toggleClass = () => {
         setActive(!isActive);
-      };
+    };
 
     return (
         <nav>

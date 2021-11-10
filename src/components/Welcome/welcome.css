@@ -1,0 +1,92 @@
+/* Welcome ******************************/
+
+
+.welcome {
+    margin-top: 20rem;
+    position: relative;
+}
+
+.welcome__title {
+    font-size: 12rem;
+    position: absolute;
+    top: -12rem;
+    left: -3rem;
+    color: var(--light-grey);
+
+}
+
+.welcome__contents {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+    width: 55rem;
+    margin-left: 5rem;
+
+}
+
+.welcome__heading {
+    font-size: 4rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 2rem;
+}
+
+.welcome__description {
+    line-height: 1.8;
+}
+
+
+/* Responsive Welcome ***************/
+@media (min-width: 1500px) {
+    .welcome__contents {
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 1325px) {
+    .welcome__title {
+        font-size: 10rem;
+    }
+
+
+}
+
+@media (max-width: 1140px) {
+    .welcome__contents {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1046px) {
+    .welcome__contents--right img {
+        display: none;
+    }
+
+    .welcome__contents {
+        width: 100%;
+        margin: auto;
+        gap: 0;
+    }
+
+    .welcome__title {
+        display: none;
+    }
+
+    .welcome {
+        margin-top: 4rem;
+    }
+
+    .welcome__heading {
+        font-size: 3rem;
+    }
+
+
+}
+
+@media (max-width: 406px) {
+    .welcome__heading {
+        font-size: 2rem;
+        ;
+    }
+}

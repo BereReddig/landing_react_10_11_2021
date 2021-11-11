@@ -7,9 +7,10 @@ const Portfolio = () => {
     return (
         <section className='portfolio'>
             <div className='portfolio__images--container'>
-                {data_Portfolio.map((item) => {
+                {data_Portfolio.map((item, index) => {
                     return (
                         <PortfolioImage 
+                            key={index}
                             className={'featured__image--card ' + item.image.className} 
                             h3={item.image.h3} 
                             p={item.image.p} 

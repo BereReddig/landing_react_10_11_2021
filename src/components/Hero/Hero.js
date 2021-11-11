@@ -3,35 +3,32 @@ import './hero.css';
 import data_heroSlider from '../../data_heroSlider.json';
 import Slide from "./Slide/Slide";
 
-const Hero = (props) => {
-    const [isCurrent, setCurrent] = useState(true);
-
-    const toggleClass = () => {
-        setCurrent(!isCurrent);
-    };
+const Hero = () => {
+    const [currentSlide, setCurrent] = useState(1);
 
     return (
         <div className='slider'>
-            {data_heroSlider.map((slide, index)=>{
+            {data_heroSlider.map((item, index)=>{
                 return (
                     <Slide 
-                        setClass={isCurrent ? 'slide current' : 'slide'}
-                        titel_1={slide.slide.titel_1}
-                        title_2={slide.slide.title_2}
-                        description={slide.slide.description}
+                        key={index}
+                        setClass={currentSlide == index + 1 ? 'slide current' : 'slide'}
+                        titel_1={item.titel_1}
+                        title_2={item.title_2}
+                        description={item.description}
                     />
                 )
             })}
 
             <div id='prev' 
                 className='button'
-                onClick={toggleClass}
+                onClick={() => {(currentSlide > 1) ? setCurrent(currentSlide - 1) : setCurrent(data_heroSlider.length)}}
             >
                 <i className='fas fa-arrow-left' aria-hidden='true'/>
             </div>
             <div id='next' 
                 className='button'
-                onClick={toggleClass}
+                onClick={() => {(currentSlide < data_heroSlider.length) ? setCurrent(currentSlide + 1) : setCurrent(1)}}
             >
                 <i className='fas fa-arrow-right' aria-hidden='true'/>
             </div>

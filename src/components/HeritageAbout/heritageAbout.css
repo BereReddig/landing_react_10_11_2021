@@ -1,0 +1,59 @@
+/*  Heritage Section ********************/
+
+.heritage {
+    margin-top: 6rem;
+
+}
+
+.heritage__right {
+    background-image: url("../../assets/about/desktop/image-heritage.jpg");
+    max-width: 100%;
+    height: 500px;
+    ;
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.heritage__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.heritage__divider {
+    width: 5rem;
+    height: 1px;
+    background: var(--very-dark-blue);
+    margin-bottom: 3rem;
+}
+
+.heritage__headline {
+    font-size: calc(1rem + 2vw);
+    margin-bottom: 30px;
+}
+
+.heritage__description {
+    line-height: 1.8;
+}
+
+.dh1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .heritage__container {
+        display: block;
+    }
+
+    .heritage__right {
+        display: none;
+    }
+
+    .heritage__left {
+        width: 100%;
+        display: block;
+    }
+}
+

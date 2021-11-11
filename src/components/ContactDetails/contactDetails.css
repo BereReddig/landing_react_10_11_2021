@@ -1,0 +1,79 @@
+/* Contact Details ********************/
+.contact__details {
+    margin: 6rem 0 6rem 0;
+}
+
+.contact__details--container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact__details--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__details--list {
+    line-height: 1.9;
+
+}
+
+.phone {
+    margin-bottom: 15px;
+}
+
+.arrow__black {
+    margin-left: 10px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.view__container {
+    display: flex;
+    align-items: center;
+
+}
+
+.view {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact__details--left--title {
+    font-size: calc(1rem + 2vw);
+}
+
+.location {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+
+/* Responsive Contact Details */
+@media (max-width: 970px) {
+    .contact__details--container {
+        flex-direction: column;
+    }
+
+    .contact__details--list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact__details--left--title {
+        margin-bottom: 2rem;
+    }
+
+    .main {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 596px) {
+    .contact__details--list {
+        flex-direction: column;
+    }
+
+}

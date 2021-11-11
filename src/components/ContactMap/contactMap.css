@@ -1,0 +1,29 @@
+/* contact map *************/
+
+.contact__map {
+    margin: 6rem 0 6rem 0;
+    background-image: url("../../assets/contact/desktop/image-map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+
+/* Responsive Contact Map */
+@media (max-width: 1050px) {
+    .contact__map {
+        background-image: url("../../assets/contact/tablet/image-map.png");
+
+
+    }
+}
+
+@media (max-width: 660px) {
+    .contact__map {
+        background-image: url("../../assets/contact/mobile/image-map.png");
+        background-size: contain;
+        height: 310px;
+        width: 100%;
+    }
+}
